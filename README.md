@@ -2,13 +2,19 @@
 
 ## Setup
 
-### Install ubuntu on the raspberry pi.
+### Install ubuntu on the raspberry pi
 
-### Install ros2 on raspberry pi.
+todo
 
-### Download ros2 packages.
+### Install ros2 on raspberry pi
 
-### Setup systemd.
+todo
+
+### Download ros2 packages
+
+todo
+
+### Setup systemd
 
 First make the script to launch all the nodes at once.
 We placed it in our user directory.
@@ -72,3 +78,7 @@ systemctl start ros2-thumper.service
 
 systemctl status ros2-thumper.service
 ```
+
+### Download gpio library for pi
+
+todo
