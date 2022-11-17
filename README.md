@@ -207,7 +207,35 @@ systemctl status ros2-thumper.service
 
 ### Download GPIO library for Raspberry Pi
 
-todo
+first you need to clone the library from github.
+
+```bash
+git clone https://github.com/joan2937/pigpio.git
+```
+
+Then you need to build the library.
+You need to be in the repo you cloned from github to the following commands.
+
+Need to check if this works on fresh install.
+
+```bash
+cmake -Bbuild .
+cmake --build build --parallel
+cmake --install build
+sudo cmake --install build
+```
+
+To build the node you need the following command
+
+```bash
+colcon build --packages-select gpio_controller --cmake-args "-DCMAKE_INSTALL_PREFIX=/usr/local/"
+```
+
+After this you need to add the user to the dailout group and install the following.
+
+```bash
+sudo apt install rpi.gpio-common
+```
 
 ## Physical Configuration
 
