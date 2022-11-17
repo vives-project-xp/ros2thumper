@@ -140,7 +140,7 @@ After waiting for the program to flash to your SD-card. Place the SD-Card into t
 
     This is an example with thumper_drive, just follow the same pattern for your other packages. 
 
-### Setup systemd
+### **Setup systemd**
 
 First make the script to launch all the nodes at once.
 We placed it in our user directory.
@@ -205,6 +205,10 @@ systemctl start ros2-thumper.service
 systemctl status ros2-thumper.service
 ```
 
-### Download gpio library for pi
+### Download GPIO library for Raspberry Pi
 
 todo
+
+## Physical Configuration
+
+![Pinout for I²C and buck for Pi](/img/Pinout.png)
