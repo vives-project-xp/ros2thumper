@@ -1,0 +1,9 @@
+float32 battery_voltage
+uint8 left_motor_speed
+uint8 left_motor_direction
+int16 left_motor_current
+bool left_motor_braking
+uint8 right_motor_speed
+uint8 right_motor_direction
+int16 right_motor_current
+bool right_motor_braking

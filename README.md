@@ -115,6 +115,30 @@ After waiting for the program to flash to your SD-card. Place the SD-Card into t
     cd ~/ros2_ws/src
     ```
 
+2. **Download joy_linux**
+
+    This will allow you to use a game controller to drive the thumper
+
+    ```bash
+    sudo apt install ros-humble-joy-linux
+    ```
+
+3. **Install thumper nodes**
+
+    Copy the 3 thumper packages found in this directory to your workspace.
+    When you have done this you can use:
+
+    ```bash
+    colcon build
+    ```
+
+    After building you can test this by doing:
+
+    ```bash
+    ros2 run thumper_drive thumper_drive_node
+    ```
+
+    This is an example with thumper_drive, just follow the same pattern for your other packages. 
 
 ### Setup systemd
 
