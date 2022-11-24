@@ -50,12 +50,12 @@ class ThumperDriveNode : public rclcpp::Node {
         message.right_motor_direction = 1;
       }
 
-      if (turning > 0.1) {
+      if (turning > 0.1) { //Right
         message.left_motor_speed = (uint8_t)(turning * maxSpeed);
         message.left_motor_direction = 1;    // Forward 
-        message.right_motor_speed = (uint8_t)(1 - turning * maxSpeed);
+        message.right_motor_speed = (uint8_t)(1 - turning * maxSpeed);  
         message.right_motor_direction = 1;
-      } else if (turning < -0.1) {
+      } else if (turning < -0.1) {  //Left
         message.left_motor_speed = (uint8_t)(std::abs(1 - turning * maxSpeed));
         message.left_motor_direction = 1;    // Backwards
         message.right_motor_speed = (uint8_t)(std::abs(turning * maxSpeed));
@@ -79,6 +79,6 @@ class ThumperDriveNode : public rclcpp::Node {
   private:
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joySubscriber;
     rclcpp::Publisher<trex_interfaces::msg::Drive>::SharedPtr trexPublisher;
-    int maxSpeed = 50;
+    int maxSpeed = 100;
     int counter = 0;
 };
