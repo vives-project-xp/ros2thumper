@@ -57,9 +57,9 @@ class ThumperDriveNode : public rclcpp::Node {
         message.right_motor_direction = 0;
       } else if (turning < -0.1) {
         message.left_motor_speed = (uint8_t)(std::abs(1 - turning * 255));
-        message.left_motor_direction = 1;    // Backwards
+        message.left_motor_direction = 0;    // Backwards
         message.right_motor_speed = (uint8_t)(std::abs(turning * 255));
-        message.right_motor_direction = 1;    // Backwards
+        message.right_motor_direction = 0;    // Backwards
       }
 
       // if (rightJoystick > 0.1) {
