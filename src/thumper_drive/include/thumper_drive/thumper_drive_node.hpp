@@ -34,22 +34,22 @@ class ThumperDriveNode : public rclcpp::Node {
       auto message = trex_interfaces::msg::Drive();
 
       if (leftJoystick > 0.1) {
-        message.left_motor_speed = (uint8_t)(leftJoystick * 255);
-        message.left_motor_direction = 0;    // Forward
+        message.left_motor_speed = (uint8_t)(leftJoystick * 50);
+        message.left_motor_direction = 1;    // Forward
       } else if (leftJoystick < -0.1) {
-        message.left_motor_speed = (uint8_t)(std::abs(leftJoystick * 255));
-        message.left_motor_direction = 1;    // Backwards
+        message.left_motor_speed = (uint8_t)(std::abs(leftJoystick * 50));
+        message.left_motor_direction = 0;    // Backwards
       } else {
         message.left_motor_speed = 0;
         message.left_motor_direction = 0;
       }
 
       if (rightJoystick > 0.1) {
-        message.right_motor_speed = (uint8_t)(rightJoystick * 255);
-        message.right_motor_direction = 0;    // Forward
+        message.right_motor_speed = (uint8_t)(rightJoystick * 50);
+        message.right_motor_direction = 1;    // Forward
       } else if (rightJoystick < -0.1) {
-        message.right_motor_speed = (uint8_t)(std::abs(rightJoystick * 255));
-        message.right_motor_direction = 1;    // Backwards
+        message.right_motor_speed = (uint8_t)(std::abs(rightJoystick * 50));
+        message.right_motor_direction = 0;    // Backwards
       } else {
         message.right_motor_speed = 0;
         message.right_motor_direction = 0;
