@@ -28,6 +28,7 @@ To activate the legacy camera support, select option `3 Interface Options` with 
 ![InterfaceOptions](/img/InterfaceOption.png)
 
 Press enter again on `1 Legacy Camera`.
+
 ![LegacyCamera](/img/LegacyCamera.png)
 
 Press enter on `<Yes>`. If you get the following screen, you have successfully enabled the camera. Hit enter again.
