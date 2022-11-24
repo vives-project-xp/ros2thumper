@@ -51,14 +51,14 @@ class ThumperDriveNode : public rclcpp::Node {
       }
 
       if (turning > 0.1) { //Right
-        message.left_motor_speed = (uint8_t)(turning * maxSpeed);
+        message.left_motor_speed = (uint8_t)(maxSpeed);
         message.left_motor_direction = 0;    // Forward 
         message.right_motor_speed = (uint8_t)((1 - turning) * maxSpeed);  
         message.right_motor_direction = 0;
       } else if (turning < -0.1) {  //Left
         message.left_motor_speed = (uint8_t)(std::abs((1 - turning) * maxSpeed));
         message.left_motor_direction = 0;    // Backwards
-        message.right_motor_speed = (uint8_t)(std::abs(turning * maxSpeed));
+        message.right_motor_speed = (uint8_t)(std::abs(maxSpeed));
         message.right_motor_direction = 0;    // Backwards
       }
 
