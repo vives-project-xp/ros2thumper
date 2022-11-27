@@ -28,8 +28,8 @@ class ThumperDriveNode : public rclcpp::Node {
 
       RCLCPP_INFO(this->get_logger(), "Processing Joystick Message");
 
-      double leftJoystick = msg->axes[1];
-      double rightJoystick = msg->axes[4];
+      double forward = msg->axes[1];
+      double turning = msg->axes[0];
 
       auto message = trex_interfaces::msg::Drive();
 

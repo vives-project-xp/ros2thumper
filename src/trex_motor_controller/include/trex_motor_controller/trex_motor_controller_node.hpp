@@ -2,7 +2,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "trex_motor_controller.hpp"
-#include "std_msgs/msg/string.hpp"
+// #include "std_msgs/msg/string.hpp"
 #include "trex_interfaces/msg/drive.hpp"      // generated
 #include "trex_interfaces/msg/status.hpp"      // generated
 #include "motor_direction.hpp"
@@ -50,7 +50,7 @@ class TRexMotorControllerNode : public rclcpp::Node {
         message.right_motor_braking = status.rightMotorBraking;
 
         statusPublisher->publish(message);
-        RCLCPP_INFO(this->get_logger(), "Motor battery voltage: " + std::to_string(status.batteryVoltage));
+        // RCLCPP_INFO(this->get_logger(), "Motor battery voltage: " + std::to_string(status.batteryVoltage));
       } catch (const std::runtime_error& err) {
         RCLCPP_WARN(this->get_logger(), "%s", err.what());
       }
