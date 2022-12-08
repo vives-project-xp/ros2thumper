@@ -140,9 +140,100 @@ After waiting for the program to flash to your SD-card. Place the SD-Card into t
 
     This is an example with thumper_drive, just follow the same pattern for your other packages. 
 
+## **Launch File with startup on boot**
+
+### **Launch file**
+
+First we make a new ROS2 package. Go into your ROS2 Workspace and pick a name for your package. We used start_robot but you can choose. You also need to delete the include and src directories. Replace these with a launch directory in which you will be adding your launch file.
+
+```bash
+cd ~/ros2_ws/src
+ros2 pkg create start_robot
+cd start_robot/
+rm -rf include/
+rm -rf src/
+mkdir launch
+touch launch/launch.py
+```
+
+After this we can start with the actual launch file itself. Underneath is an example for the launch file.
+
+```py
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    ld = LaunchDescription()
+
+    talker_node = Node(
+        package="demo_nodes_cpp",
+        executable="talker",
+    )
+
+    listener_node = Node(
+        package="demo_nodes_py",
+        executable="listener"
+    )
+
+    ld.add_action(talker_node)
+    ld.add_action(listener_node)
+
+    return ld
+```
+
+Inside each of the defined nodes there is package and executable. In our case an example would be:
+
+```py
+thumper_drive = Node(
+    package="thumper_drive"
+    executable="thumper_drive_node"
+)
+```
+
+Our launch file can be found in our repository.
+TODO
+
+### **Install dependencies**
+
+Because we use different packages than the one for our launch file we need to add some dependencies.
+
+Open package.xml where you wrote the launch file.
+To add the dependency, use an "exec_depend" tag for every package you want to launch with your launch file. I will once again use thumper_drive as an example:
+
+```xml
+<exec_depend>thumper_drive</exec_depend>
+```
+
+Go into the CMakeLists.txt of your package, and after find_package(ament_cmake REQUIRED), add:
+
+```
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
+```
+
+Now go back into your workspace:
+
+```bash
+cd ..
+```
+
+And use build the package:
+
+```bash
+colcon build
+```
+
+After sourcing your workspace you can run the package and you will see that the nodes you wanted start running.
+
+```bash
+ros2 launch start_robot launch.py
+```
+
 ### **Setup systemd**
 
-First make the script to launch all the nodes at once.
+Then we make the script to run the launch file.
 We placed it in our user directory.
 
 ```bash
