@@ -73,8 +73,22 @@ After the installation, you should be able to run the following command
 v4l2-ctl --list-devices
 ```
 It wil give a response something like this
+
 ![CameraDetection](/img/CameraDetection.png)
 
 The bottom line is the path where the camera can be found. This is needed in the code for the camera.
+
+## **Testing the camera**
+
+It is possible to run a simple python script to take a picture. This will be used to see if the camera is working.
+
+Start by installing python 3 and the library's needed to use the camera
+```bash
+sudo apt install python3
+sudo apt install libopencv-dev python3-opencv
+```
+
+Make a file in a 
+
 
 
