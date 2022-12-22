@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/gib/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/gib/ros2_ws/src/gpio_controller/include/**",
+        "/home/gib/ros2_ws/src/ligth_controller/include/**",
+        "/home/gib/ros2_ws/src/neopixel_light_system/include/**",
+        "/home/gib/ros2_ws/src/thumper_drive/include/**",
+        "/home/gib/ros2_ws/src/thumper_package/include/**",
+        "/home/gib/ros2_ws/src/trex_interfaces/include/**",
+        "/home/gib/ros2_ws/src/trex_motor_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

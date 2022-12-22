@@ -1,0 +1,126 @@
+[0.185s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/gib/Documents/Vives/project_xp/ros2thumper']
+[0.185s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/gib/Documents/Vives/project_xp/ros2thumper'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2c80aa5750>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f2c81474760>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f2c81474760>>)
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.219s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gib/Documents/Vives/project_xp/ros2thumper'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/3D-Tekeningen) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/camera/templates) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/img) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gib/Documents/Vives/project_xp/ros2thumper/src/thumper_drive' with type 'ros.ament_cmake' and name 'thumper_drive'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_interfaces' with type 'ros.ament_cmake' and name 'trex_interfaces'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package '/home/gib/Documents/Vives/project_xp/ros2thumper/src/trex_motor_controller' with type 'ros.ament_cmake' and name 'trex_motor_controller'
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -61,7 +61,7 @@ class ThumperDriveNode : public rclcpp::Node {
   private:
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joySubscriber;
     rclcpp::Publisher<trex_interfaces::msg::Drive>::SharedPtr trexPublisher;
-    int maxSpeed = 90;
-    int maxTurningSpeed = 50;
+    int maxSpeed = 140;
+    int maxTurningSpeed = 90;
     int counter = 0;
 };
