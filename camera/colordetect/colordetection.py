@@ -35,7 +35,6 @@ class VideoCamera(object):
             cx = int(width/2)
             cy = int(height/2)
             color = image[cy, cx]
-            b, g, r = color
         return color
 
 def main(args=None):

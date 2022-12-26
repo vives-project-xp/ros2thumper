@@ -39,7 +39,7 @@ def get_rgb_values(value):
     r = ((value >> 16) & 255)
     g = ((value >> 8) & 255)
     b = ((value >> 0) & 255)
-    return (g, r, b ,0)
+    return (r, g, b, 0)
 
 
 pixel_pin_A = board.D18
@@ -49,10 +49,10 @@ pixel_pin_C = board.D21
 
 num_pixels_A = 24
 num_pixels_B = 24
-num_pixels_C = 24
+num_pixels_C = 36
 # num_pixels_D = 12
 
-ORDER = neopixel.RGBW
+ORDER = neopixel.RGB
 
 pixels_A = neopixel.NeoPixel(
     pixel_pin_A, num_pixels_A, brightness=0.2, auto_write=False, pixel_order=ORDER
