@@ -40,17 +40,16 @@ Press the right arrow key twice to select `<Finish>` and hit enter. Reboot the P
 ## **Camera connection**
 
 Put the cable in the camera. The blue patches should always be the closest to the black part of the connector. 
-<img src="/img/CameraBack.jpg" width="100" height="100">
-![CameraBack](/img/CameraBack.jpg)
-[//]: # (Image References)
-![CameraFront](/img/CameraFront.jpg)
+
+<img src="/img/CameraBack.jpg" width="50%" height="50%">
+<img src="/img/CameraFront.jpg" width="50%" height="50%">
 
 Connect the other side of the cable with the Raspberry Pi. Use the connector in the middle, not the one on the side cause that one is for a display.
 
 It should look like this
 
-![PiFront](/img/PiFront.jpg)
-![PiBack](/img/PiBack.jpg)
+<img src="/img/PiBack.jpg" width="50%" height="50%">
+<img src="/img/PiFront.jpg" width="50%" height="50%">
 
 ## **Camera detection**
 
