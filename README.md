@@ -331,3 +331,38 @@ sudo apt install rpi.gpio-common
 ## Physical Configuration
 
 ![Pinout for I²C and buck for Pi](/img/Pinout.png)
+
+## 3D Drawings
+The car that we use can be purchased [here](https://www.pololu.com/product/1563) and the drawings are all made for this version
+### Frontbumper
+![frontbumper](/img/3d_drawings/frontbumper.png)
+
+This one has to be placed on the front of the car with m3 bolts and nuts. The 2 holes are for [neopixels](https://www.amazon.nl/AZDelivery-WS2812B-Neopixel-compatibel-Inclusief/dp/B07V1GGKHV/ref=sr_1_3?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2BOZWYYQMQUCL&keywords=neopixel%2B12%2Bled%2Bring&qid=1666254029&qu=eyJxc2MiOiIwLjAwIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=%2Caps%2C188&sr=8-3&th=1) and the 4 smaller holes are for the wires from the neopixel. There is a place for the camera on top, so make sure that the raspberry pi is not too far away.
+
+### Backbumper
+![frontbumper](/img/3d_drawings/backbumper.png)
+
+This is the same as the frontbumper, but has to be installed on the back
+
+### Battery holder and attachments
+![batteryholder](/img/3d_drawings/batteryholder.png)
+
+The batteryholder has to be placed on top of the car at the back. This is attached with m3 bolts and nuts. The battery is hold in place with 2 slide in doors. One of them has a hole so can let the wire come trough. The batteryholder also holds 2 buckconverters and these can be hold in place with a "clamp". There are also 4 of these to hold the doors and the battery in the holder 
+
+![batteryholder door](/img/3d_drawings/batteryholder_schuif1.png)
+
+![batteryholder door](/img/3d_drawings/batteryholder_schuif2.png)
+
+![batteryholder clamp](/img/3d_drawings/batteryholder_klem.png)
+
+![buckconverter clamp](/img/3d_drawings/buckconverter_klem.png)
+
+### Pi holder and roof
+![Pi holder](/img/3d_drawings/baseplate_pi.png)
+
+The 4 smallest holes are to hold the pi on the baseplate. You need to use m2.5 nuts and bolts for this. The 4 outer holes are to hold the baseplate on top of the car. This needs to be close to the frontbumper so the camera can fit. This is also attached with m3 nuts and bolts. The other 4 holes are for the roof of the pi. 
+
+![Pi holder](/img/3d_drawings/pi_roof.png)
+
+The roof holds a neopixels that acts as a flashing light. The roof is attached with [spacers](https://www.allekabels.be/luidspreker-zelfbouw/237/1064473/afstandsbuis.html?gclid=CjwKCAiAzKqdBhAnEiwAePEjklzWyRlXLIAmq-iBt_muqQ_QlJY0f41R-OtYIHU7eHgD6yQ9KDLbIxoCVFYQAvD_BwE).
+
